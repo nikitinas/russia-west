@@ -1,0 +1,43 @@
+{
+  "topicId": "russia-west",
+  "trunk": [
+    { "id": "ontologies", "slug": "ontologies", "order": 1, "titleRu": "Разные онтологии", "titleEn": "Different ontologies" },
+    { "id": "ethics", "slug": "ethics", "order": 2, "titleRu": "Разные этики", "titleEn": "Different ethics" },
+    { "id": "archetypes-good", "slug": "archetypes-good", "order": 3, "titleRu": "Архетипы добра", "titleEn": "Archetypes of good" },
+    { "id": "archetypes-evil", "slug": "archetypes-evil", "order": 4, "titleRu": "Архетипы зла", "titleEn": "Archetypes of evil" },
+    { "id": "mirror", "slug": "mirror", "order": 5, "titleRu": "Зеркальность страхов", "titleEn": "Mirror fears" },
+    { "id": "solutions", "slug": "solutions", "order": 6, "titleRu": "Пути решения", "titleEn": "Paths to resolution" }
+  ],
+  "archetypes": {
+    "good": {
+      "russia": ["svyataya-rus", "bogatyr", "sobor"],
+      "west": ["prometheus", "knight", "renaissance-man"]
+    },
+    "evil": {
+      "russia": ["satan", "koschei", "zmey-gorynych", "chernomor"],
+      "west": ["leviathan", "golem", "dragon", "shere-khan"]
+    }
+  },
+  "mirrorPairs": [
+    ["satan", "leviathan"],
+    ["koschei", "dragon"],
+    ["zmey-gorynych", "golem"],
+    ["chernomor", "shere-khan"]
+  ],
+  "archetypeMeta": {
+    "satan": { "side": "russia", "type": "evil", "mirrorSlug": "leviathan", "distortsSlug": "svyataya-rus", "relatedSlugs": ["koschei", "zmey-gorynych", "chernomor"] },
+    "koschei": { "side": "russia", "type": "evil", "mirrorSlug": "dragon", "distortsSlug": "bogatyr", "relatedSlugs": ["satan", "zmey-gorynych", "chernomor"] },
+    "zmey-gorynych": { "side": "russia", "type": "evil", "mirrorSlug": "golem", "distortsSlug": "bogatyr", "relatedSlugs": ["satan", "koschei", "chernomor"] },
+    "chernomor": { "side": "russia", "type": "evil", "mirrorSlug": "shere-khan", "distortsSlug": "svyataya-rus", "relatedSlugs": ["satan", "koschei", "zmey-gorynych"] },
+    "leviathan": { "side": "west", "type": "evil", "mirrorSlug": "satan", "distortsSlug": "knight", "relatedSlugs": ["golem", "dragon", "shere-khan"] },
+    "golem": { "side": "west", "type": "evil", "mirrorSlug": "zmey-gorynych", "distortsSlug": "prometheus", "relatedSlugs": ["leviathan", "dragon", "shere-khan"] },
+    "dragon": { "side": "west", "type": "evil", "mirrorSlug": "koschei", "distortsSlug": "knight", "relatedSlugs": ["leviathan", "golem", "shere-khan"] },
+    "shere-khan": { "side": "west", "type": "evil", "mirrorSlug": "chernomor", "distortsSlug": "knight", "relatedSlugs": ["leviathan", "golem", "dragon"] },
+    "svyataya-rus": { "side": "russia", "type": "good", "relatedSlugs": ["bogatyr", "sobor"] },
+    "bogatyr": { "side": "russia", "type": "good", "relatedSlugs": ["svyataya-rus", "sobor"] },
+    "sobor": { "side": "russia", "type": "good", "relatedSlugs": ["svyataya-rus", "bogatyr"] },
+    "prometheus": { "side": "west", "type": "good", "relatedSlugs": ["knight", "renaissance-man"] },
+    "knight": { "side": "west", "type": "good", "relatedSlugs": ["prometheus", "renaissance-man"] },
+    "renaissance-man": { "side": "west", "type": "good", "relatedSlugs": ["prometheus", "knight"] }
+  }
+}

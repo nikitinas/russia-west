@@ -1,0 +1,74 @@
+{
+  "ru": {
+    "russia": [
+      {
+        "title": "Высшая ценность",
+        "keywords": "гармония, правда, соборность, «мы» важнее «я»",
+        "long": "Высшая ценность — гармония с миром, людьми и совестью. Правда выше формальной истины. Соборность — «мы» как целое важнее суммы «я»."
+      },
+      {
+        "title": "Добро",
+        "keywords": "гармония, справедливость, милосердие, жертвенность, правда выше закона",
+        "long": "Добро: гармония, справедливость (правда), соборность. Жизнь в ладу с совестью, общиной, землёй. Приоритет духовного над материальным. Жертвенность ради общего. Правда выше закона. Милосердие."
+      },
+      {
+        "title": "Зло",
+        "keywords": "гордыня, эгоизм, жадность, предательство, насилие над слабым",
+        "long": "Зло: нарушение гармонии — гордыня, эгоизм, жадность, предательство общины, насилие над слабым, духовная пустота."
+      }
+    ],
+    "west": [
+      {
+        "title": "Высшая ценность",
+        "keywords": "свобода, прогресс, закон, права",
+        "long": "Высшая ценность — свобода личности от внешнего принуждения. Прогресс и развитие. Верховенство закона, защищающего права."
+      },
+      {
+        "title": "Добро",
+        "keywords": "свобода, ответственность, самореализация, закон, инновации",
+        "long": "Добро: свобода, ответственность, прогресс. Свобода личности от внешнего принуждения. Самореализация. Верховенство закона, защищающего права. Инновации, развитие."
+      },
+      {
+        "title": "Зло",
+        "keywords": "тирания, тоталитаризм, застой, бесправие, несправедливый закон",
+        "long": "Зло: ограничение свободы — тирания, тоталитаризм, застой, бедность как отсутствие возможностей, несправедливый закон."
+      }
+    ]
+  },
+  "en": {
+    "russia": [
+      {
+        "title": "Highest value",
+        "keywords": "harmony, truth, sobornost, «we» over «I»",
+        "long": "The highest value is harmony with the world, people, and conscience. Truth above formal correctness. Sobornost — «we» as a whole matters more than the sum of «I»."
+      },
+      {
+        "title": "Good",
+        "keywords": "harmony, justice, mercy, sacrifice, truth above law",
+        "long": "Good: harmony, justice (truth), sobornost. Life in accord with conscience, community, land. Priority of the spiritual over the material. Sacrifice for the whole. Truth above law. Mercy."
+      },
+      {
+        "title": "Evil",
+        "keywords": "pride, selfishness, greed, betrayal, violence against the weak",
+        "long": "Evil: violation of harmony — pride, selfishness, greed, betrayal of the community, violence against the weak, spiritual emptiness."
+      }
+    ],
+    "west": [
+      {
+        "title": "Highest value",
+        "keywords": "freedom, progress, law, rights",
+        "long": "The highest value is freedom of the person from external coercion. Progress and development. Rule of law protecting rights."
+      },
+      {
+        "title": "Good",
+        "keywords": "freedom, responsibility, self-realization, law, innovation",
+        "long": "Good: freedom, responsibility, progress. Freedom of the person from external coercion. Self-realization. Rule of law protecting rights. Innovation, development."
+      },
+      {
+        "title": "Evil",
+        "keywords": "tyranny, totalitarianism, stagnation, lawlessness, unjust law",
+        "long": "Evil: restriction of freedom — tyranny, totalitarianism, stagnation, poverty as lack of opportunity, unjust law."
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "ru": [
+    {
+      "id": "satan-leviathan",
+      "actionShort": "Защита традиционных ценностей, ограничение влияния извне",
+      "russiaArchetypeSlug": "satan",
+      "russiaInterpretation": "Для России продвижение западных ценностей и прав человека — это не просвещение, а нашествие **Сатаны**. Искушение отступить от «своих» и принять чужой закон.",
+      "russiaReaction": "Россия отвечает защитой традиционных ценностей, ограничением влияния извне, укреплением суверенитета. В её картине мира это **Святая Русь** на страже.",
+      "westArchetypeSlug": "leviathan",
+      "westPerception": "Запад видит в действиях России не защиту идентичности, а вторжение государства в частную жизнь — неуправляемого **Левиафана**.",
+      "westReaction": "Запад отвечает усилением правозащитной риторики и поддержкой гражданского общества, укрепляя образ **Рыцаря**, защищающего свободу."
+    },
+    {
+      "id": "koschei-dragon",
+      "actionShort": "Экономический суверенитет, импортозамещение",
+      "russiaArchetypeSlug": "koschei",
+      "russiaInterpretation": "Для России давление через рынок и санкции — это не конкуренция, а **Кощей**, «чахнущий над златом» и тянущий всех в свою орбиту.",
+      "russiaReaction": "Россия отвечает экономическим суверенитетом, импортозамещением, отстройкой от западных цепочек. В её картине это **Богатырь**, сохраняющий независимость.",
+      "westArchetypeSlug": "dragon",
+      "westPerception": "Запад видит в этом не защиту, а «чахнущего над златом» — **Дракона**, не играющего по правилам рынка.",
+      "westReaction": "Запад ужесточает санкции и изоляцию, видя себя **Рыцарем** или **Прометеем**, противостоящим дракону."
+    },
+    {
+      "id": "zmey-golem",
+      "actionShort": "Укрепление армии, красные линии, СВО как защита от НАТО",
+      "russiaArchetypeSlug": "zmey-gorynych",
+      "russiaInterpretation": "Для России расширение военного блока к своим границам — это не политика, а нашествие **Змея Горыныча**. Он пришёл жечь и требовать дани.",
+      "russiaReaction": "Россия отвечает укреплением военной машины, учениями, буферными зонами, СВО. В её картине мира это **Богатырь на заставе**, готовый к бою.",
+      "westArchetypeSlug": "golem",
+      "westPerception": "Запад видит в действиях России не оборону, а нападение неуправляемого **Голема**. Огромная, непредсказуемая машина пришла в движение.",
+      "westReaction": "Запад отвечает новыми санкциями и поставками оружия, укрепляя образ **Рыцаря**, защищающего свободу."
+    },
+    {
+      "id": "chernomor-shere-khan",
+      "actionShort": "Суверенитет, неприятие западных стандартов",
+      "russiaArchetypeSlug": "chernomor",
+      "russiaInterpretation": "Для России навязывание западных стандартов и правил — это не порядок, а **Черномор**: хищник, который диктует условия и держит всех в страхе.",
+      "russiaReaction": "Россия отвечает суверенитетом, неприятием двойных стандартов, опорой на своё право. В её картине это **Святая Русь** или **Богатырь**, отстаивающий справедливость.",
+      "westArchetypeSlug": "shere-khan",
+      "westPerception": "Запад видит хищника вне закона, шантаж и силу без правил — **Шер Хана**.",
+      "westReaction": "Запад ужесточает изоляцию и санкции, видя себя защитником порядка против хищника."
+    }
+  ],
+  "en": [
+    {
+      "id": "satan-leviathan",
+      "actionShort": "Defense of traditional values, limiting external influence",
+      "russiaArchetypeSlug": "satan",
+      "russiaInterpretation": "For Russia, the promotion of Western values and human rights is not enlightenment but the invasion of **Satan** — temptation to abandon «one’s own» and accept an alien law.",
+      "russiaReaction": "Russia responds by defending traditional values, limiting external influence, and strengthening sovereignty. In its worldview this is **Holy Rus'** on guard.",
+      "westArchetypeSlug": "leviathan",
+      "westPerception": "The West sees in Russia’s actions not the defense of identity but the state invading private life — an unmanageable **Leviathan**.",
+      "westReaction": "The West responds with stronger human-rights rhetoric and support for civil society, reinforcing the image of the **Knight** defending freedom."
+    },
+    {
+      "id": "koschei-dragon",
+      "actionShort": "Economic sovereignty, import substitution",
+      "russiaArchetypeSlug": "koschei",
+      "russiaInterpretation": "For Russia, pressure through markets and sanctions is not competition but **Koschei** — «hoarding gold» and pulling everyone into his orbit.",
+      "russiaReaction": "Russia responds with economic sovereignty, import substitution, and decoupling from Western chains. In its picture this is the **Bogatyr** preserving independence.",
+      "westArchetypeSlug": "dragon",
+      "westPerception": "The West sees in this not defense but a «dragon hoarding gold» — a **Dragon** that does not play by market rules.",
+      "westReaction": "The West tightens sanctions and isolation, seeing itself as **Knight** or **Prometheus** facing the dragon."
+    },
+    {
+      "id": "zmey-golem",
+      "actionShort": "Military buildup, red lines, SMO as defense against NATO",
+      "russiaArchetypeSlug": "zmey-gorynych",
+      "russiaInterpretation": "For Russia, the expansion of a military bloc to its borders is not policy but the invasion of **Zmey Gorynych**. It has come to burn and exact tribute.",
+      "russiaReaction": "Russia responds by strengthening its military, exercises, buffer zones, and the SMO. In its worldview this is the **Bogatyr at the outpost**, ready for battle.",
+      "westArchetypeSlug": "golem",
+      "westPerception": "The West sees in Russia’s actions not defense but the attack of an unmanageable **Golem**. A huge, unpredictable machine has been set in motion.",
+      "westReaction": "The West responds with new sanctions and arms supplies, reinforcing the image of the **Knight** defending freedom."
+    },
+    {
+      "id": "chernomor-shere-khan",
+      "actionShort": "Sovereignty, rejection of Western standards",
+      "russiaArchetypeSlug": "chernomor",
+      "russiaInterpretation": "For Russia, the imposition of Western standards and rules is not order but **Chernomor** — a predator dictating terms and holding everyone in fear.",
+      "russiaReaction": "Russia responds with sovereignty, rejection of double standards, and reliance on its own law. In its picture this is **Holy Rus'** or **Bogatyr** defending justice.",
+      "westArchetypeSlug": "shere-khan",
+      "westPerception": "The West sees a predator outside the law, blackmail and force without rules — **Shere Khan**.",
+      "westReaction": "The West tightens isolation and sanctions, seeing itself as defender of order against the predator."
+    }
+  ]
+}

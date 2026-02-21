@@ -1,0 +1,114 @@
+{
+  "ru": {
+    "russia": [
+      {
+        "title": "Самосознание человека",
+        "keywords": "часть целого, земля, род, община, идентичность",
+        "long": "Человек ощущает себя органичной частью природного целого, а не его владельцем. Его идентичность формируется через связь с землей, родом и общиной."
+      },
+      {
+        "title": "Отношение к природе",
+        "keywords": "дом, Мать-сыра земля, субъект, со-трудничество, уважение",
+        "long": "Природа не является бездушным ресурсом. Отношения с ней строятся на со-трудничестве и уважении. Человек — не царь природы, а ее часть."
+      },
+      {
+        "title": "Отношение к обществу",
+        "keywords": "род, мир, община, взаимопомощь, общая судьба",
+        "long": "Социальные связи первичны по отношению к формальному закону. «Мир» — это форма взаимопомощи и коллективного выживания, основанная на общем происхождении и судьбе."
+      },
+      {
+        "title": "Цель бытия",
+        "keywords": "гармония, правда, справедливость, лад, духовное",
+        "long": "Высшая цель — жить в ладу с совестью, с людьми и с землей. Духовное измерение жизни важнее материального."
+      },
+      {
+        "title": "Следствия из онтологии",
+        "keywords": "соборность, коллективизм, «мы» над «я», правда, не формальный закон",
+        "long": "Отсюда вытекает важность соборности, неприятие крайнего индивидуализма, подозрение к формальному закону, который может быть неправдой."
+      }
+    ],
+    "west": [
+      {
+        "title": "Самосознание человека",
+        "keywords": "индивид, изоляция, личный выбор, конкуренция, самореализация",
+        "long": "Индивид первичен. Идентичность формируется через личный выбор, конкуренцию и самореализацию. Общество — инструмент защиты частных интересов."
+      },
+      {
+        "title": "Отношение к природе",
+        "keywords": "ресурс, объект, познание, покорение, прогресс",
+        "long": "Природа — объект познания и покорения. Человек ставит её на службу прогрессу. «Другое» и ресурс, а не живой дом."
+      },
+      {
+        "title": "Отношение к обществу",
+        "keywords": "договор, контракт, закон, права, частные интересы",
+        "long": "Социум — искусственная конструкция, контракт между индивидами. Закон и права первичны; родство и община вторичны."
+      },
+      {
+        "title": "Цель бытия",
+        "keywords": "успех, самореализация, свобода, конкуренция, блага",
+        "long": "Высшая цель — личная реализация, победа в конкуренции, доступ к благам. Духовное подчинено материальному успеху."
+      },
+      {
+        "title": "Следствия из онтологии",
+        "keywords": "индивидуализм, верховенство закона, инновации, социальная борьба",
+        "long": "Отсюда — верховенство формального закона, защищающего права, культ инноваций и развития, принятие социальной борьбы как нормы."
+      }
+    ]
+  },
+  "en": {
+    "russia": [
+      {
+        "title": "Human self-awareness",
+        "keywords": "part of the whole, land, kin, community, identity",
+        "long": "The human feels part of the natural whole, not its owner. Identity is formed through connection with the land, kin, and community."
+      },
+      {
+        "title": "Relation to nature",
+        "keywords": "home, Mother earth, subject, cooperation, respect",
+        "long": "Nature is not a lifeless resource. Relations with it are built on cooperation and respect. The human is not king of nature but part of it."
+      },
+      {
+        "title": "Relation to society",
+        "keywords": "kin, mir, obshchina, mutual aid, shared fate",
+        "long": "Social bonds are primary over formal law. «Mir» is a form of mutual aid and collective survival based on common origin and fate."
+      },
+      {
+        "title": "Aim of existence",
+        "keywords": "harmony, truth, justice, accord, spiritual",
+        "long": "The highest aim is to live in accord with conscience, with people and the land. The spiritual dimension of life matters more than the material."
+      },
+      {
+        "title": "Consequences of ontology",
+        "keywords": "sobornost, collectivism, «we» over «I», truth, not formal law",
+        "long": "Hence the importance of sobornost, rejection of extreme individualism, suspicion of formal law that may be untrue."
+      }
+    ],
+    "west": [
+      {
+        "title": "Human self-awareness",
+        "keywords": "individual, isolation, personal choice, competition, self-realization",
+        "long": "The individual is primary. Identity is formed through personal choice, competition, and self-realization. Society is a tool to protect private interests."
+      },
+      {
+        "title": "Relation to nature",
+        "keywords": "resource, object, knowledge, conquest, progress",
+        "long": "Nature is an object of knowledge and conquest. The human puts it at the service of progress. «Other» and resource, not a living home."
+      },
+      {
+        "title": "Relation to society",
+        "keywords": "contract, agreement, law, rights, private interests",
+        "long": "Society is an artificial construct, a contract between individuals. Law and rights are primary; kinship and community secondary."
+      },
+      {
+        "title": "Aim of existence",
+        "keywords": "success, self-realization, freedom, competition, goods",
+        "long": "The highest aim is personal realization, success in competition, access to goods. The spiritual is subordinate to material success."
+      },
+      {
+        "title": "Consequences of ontology",
+        "keywords": "individualism, rule of law, innovation, social struggle",
+        "long": "Hence the supremacy of formal law protecting rights, the cult of innovation and development, acceptance of social struggle as the norm."
+      }
+    ]
+  }
+}

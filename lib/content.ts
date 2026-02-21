@@ -60,6 +60,46 @@ export function getStructure(): Structure {
   return loadJson<Structure>("structure.json");
 }
 
+export type OntologyItem = { title: string; keywords: string; long: string };
+export type OntologyItemsBySide = { russia: OntologyItem[]; west: OntologyItem[] };
+const ontologyItemsCache: Record<Locale, OntologyItemsBySide> = {} as Record<Locale, OntologyItemsBySide>;
+
+export function getOntologyItems(locale: Locale): OntologyItemsBySide {
+  if (!ontologyItemsCache[locale]) {
+    const data = loadJson<Record<Locale, OntologyItemsBySide>>("ontology-items.json");
+    ontologyItemsCache[locale] = data[locale];
+  }
+  return ontologyItemsCache[locale];
+}
+
+export type EthicsItem = { title: string; keywords: string; long: string };
+export type EthicsItemsBySide = { russia: EthicsItem[]; west: EthicsItem[] };
+const ethicsItemsCache: Record<Locale, EthicsItemsBySide> = {} as Record<Locale, EthicsItemsBySide>;
+
+export function getEthicsItems(locale: Locale): EthicsItemsBySide {
+  if (!ethicsItemsCache[locale]) {
+    const data = loadJson<Record<Locale, EthicsItemsBySide>>("ethics-items.json");
+    ethicsItemsCache[locale] = data[locale];
+  }
+  return ethicsItemsCache[locale];
+}
+
+export type ReactionItem = {
+  id: string;
+  actionShort: string;
+  russiaArchetypeSlug: string;
+  russiaInterpretation: string;
+  russiaReaction: string;
+  westArchetypeSlug: string;
+  westPerception: string;
+  westReaction: string;
+};
+
+export function getReactions(locale: Locale): ReactionItem[] {
+  const data = loadJson<Record<Locale, ReactionItem[]>>("reactions.json");
+  return data[locale] ?? [];
+}
+
 export function getRoot(locale: Locale): { title: string; thesis: string } {
   const raw = loadMarkdown(locale, "root.md");
   const { content } = matter(raw);
@@ -155,42 +195,5 @@ export const SECTION_IDS = [
   "solutions",
 ] as const;
 
-const ARCHETYPE_LABELS_RU: Record<string, string> = {
-  satan: "Сатана",
-  koschei: "Кощей Бессмертный",
-  "zmey-gorynych": "Змей Горыныч",
-  chernomor: "Черномор",
-  leviathan: "Левиафан",
-  golem: "Голем",
-  dragon: "Дракон",
-  "shere-khan": "Шер Хан",
-  "svyataya-rus": "Святая Русь",
-  bogatyr: "Богатырь",
-  sobor: "Собор",
-  prometheus: "Прометей",
-  knight: "Рыцарь Круглого стола",
-  "renaissance-man": "Человек эпохи Возрождения",
-};
-
-const ARCHETYPE_LABELS_EN: Record<string, string> = {
-  satan: "Satan",
-  koschei: "Koschei the Deathless",
-  "zmey-gorynych": "Zmey Gorynych",
-  chernomor: "Chernomor",
-  leviathan: "Leviathan",
-  golem: "Golem",
-  dragon: "Dragon",
-  "shere-khan": "Shere Khan",
-  "svyataya-rus": "Holy Rus'",
-  bogatyr: "Bogatyr",
-  sobor: "Sobor",
-  prometheus: "Prometheus",
-  knight: "Knight of the Round Table",
-  "renaissance-man": "Renaissance Man",
-};
-
-export function getArchetypeDisplayName(slug: string, locale: Locale): string {
-  return (locale === "ru" ? ARCHETYPE_LABELS_RU : ARCHETYPE_LABELS_EN)[slug] ?? slug;
-}
-
+export { getArchetypeDisplayName } from "./archetype-labels";
 export { LOCALES };
